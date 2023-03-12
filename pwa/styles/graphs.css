@@ -1,0 +1,105 @@
+.graphs-tabs {
+    width: 100%;
+    display:flex;
+}
+
+.graphs-tabs button {
+    width: 40%;
+    background-color: var(--tertiary-color);
+    color:var(--quinary-color);
+    border: none;
+    border-radius: 6px;
+    padding: 5px 0;
+    margin: 0 25px;
+}
+
+.graphs-tabs .active {
+    background-color: var(--secondary-color);
+}
+
+.graphs-tabs button:hover {
+    background-color: var(--secondary-color);
+}
+
+.graphs-content {
+    border: solid 2px var(--primary-color);
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px 25px;
+}
+
+.graphs-select {
+    background-color: var(--quaternaire-color);
+    color: var(--quinary-color);
+    border: none;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: var(--font-size-15);
+}
+
+.graphs-select:hover {
+    background-color: #a3694dBF;
+}
+
+.graphs-label {
+    font-size: var(--font-size-15);
+    color: var(--primary-color);
+}
+
+.graphs-input {
+    font-size: var(--font-size-15);
+    color: var(--primary-color);
+    border: solid 1px var(--primary-color);
+    border-radius: 6px;
+    margin: 5px;
+}
+
+.graphs-button {
+    background-color: var(--tertiary-color);
+    color:var(--quinary-color);
+    border: none;
+    border-radius: 6px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.graphs-title {
+    color: var(--primary-color);
+    font-size: var(--font-size-26);
+    text-align: center;
+}
+
+.graphs-load {
+    color: var(--primary-color);
+    font-size: var(--font-size-22);
+    text-align: center;
+}
+
+.graphs-nodata {
+    color: var(--secondary-color);
+    font-size: var(--font-size-20);
+}
+
+.graphs-graph-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 410px;
+    margin-bottom: 100px;
+    padding-right: 300px;
+}
+
+.graphs-graph-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 410px;
+    margin-bottom: 100px;
+}
+
+.graphs-graph-donut {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 480px;
+}
