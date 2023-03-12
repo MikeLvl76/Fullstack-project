@@ -8,18 +8,6 @@
   <br/>
   <p>
 
- - Build the container :
-
-```bash
-docker compose build --pull --no-cache
-```
-
-- Launch docker-compose file and build images :
-
-```bash
-docker compose up -d
-```
-
 - Install Composer packages :
 
 ```bash
@@ -32,6 +20,25 @@ docker compose exec php composer install
 docker compose exec php bin/console doctrine:migrations:diff
 docker compose exec php bin/console doctrine:migrations:migrate
 docker compose exec php bin/console doctrine:fixtures:load --no-debug # takes time
+```
+
+- Install modules :
+
+```bash
+npm i
+pnpm i
+```
+
+ - Build the container :
+
+```bash
+docker compose build --pull --no-cache
+```
+
+- Launch docker-compose file and build images :
+
+```bash
+docker compose up -d
 ```
 
 - View logs :
